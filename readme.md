@@ -46,7 +46,7 @@ No installation is required, `npx` will download and install on the fly the late
 To run the classification on your portfolio file from the command line prompt, use the following command:
 
 ```bash
-npx pp-portfolio-classifier -- <path_to_your_portfolio.xml> [output_path.xml]
+npx pp-portfolio-classifier <path_to_your_portfolio.xml> [output_path.xml]
 ```
 
 - **Input** - The path to your current Portfolio Performance `.xml` file.
@@ -152,7 +152,7 @@ You can control the classification behavior for specific securities by adding sp
 - **Portfolio Performance file format**
   The script only supports the unencrypted XML (without IDs) file format of Portfolio Performance.
 
-## 🔗 Embedded Taxonomies
+## 🔗 Nested Taxonomies
 
 You can now nest taxonomies within specific categories of other taxonomies! This solves the multi-asset fund limitation mentioned above.
 

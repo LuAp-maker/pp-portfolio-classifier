@@ -4,10 +4,11 @@
     "domain": "de",
     "baseUrl": "https://www.emea-api.morningstar.com/ecint/v1",
     "salBaseUrl": "https://www.emea-api.morningstar.com/sal/sal-service",
-    "viewId": "ITsnapshot"
+    "viewId": "ITsnapshot",
+    "Morningstar Direct Web Services API": "https://www.postman.com/dynamic-services-morningstar-com/morningstar-direct-web-services/request/pnun7vq/investment-details-mutual-fund-snapshot-view"
   },
   "mappings": {
-    "Mappings for Morningstar data": "https://developer.morningstar.com/content/hidden-from-navigation/morningstar-direct-web-services-security-details-api.xlsx",
+    "Morningstar Direct Web Services Codes": "https://developer.morningstar.com/content/hidden-from-navigation/morningstar-direct-web-services-security-details-api.xlsx",
     "AssetTypeMap": {
       "1": "Stock",
       "3": "Bond",
