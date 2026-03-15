@@ -38,9 +38,14 @@ interface TaxonomyConfig {
   valueField: string;
   /** Key mapping dictionary */
   mapping: Record<string, string | string[]> | string;
-  /** Adjust total to 100% */
+  /** Adjust total to 100%. Currently not used. Smallest weights above total = 100% are truncated */
   fixTotal?: false | number;
-
+  /** Include Not Classified weight in overall weight calculation.
+   * If true, the weights of classified items will be adjusted proportionally to their share of the total fund (i.e., weight * (1 - NotClassified%)).
+   * If false, the Not Classified portion will be ignored and weights will represent the share of classified items.
+   * Default is false. */
+  inclNotClassified?: false | boolean;
+  
   // Stock config
   stockConfig?: StockConfig;
 }
@@ -161,12 +166,28 @@ export class Classifier {
       // The data we want is usually nested in a 'BreakdownValues' array inside the filtered items
       const itemsToProcess: any[] = [];
       for (const group of filteredData) {
-        if (group.BreakdownValues && Array.isArray(group.BreakdownValues)) {
-          itemsToProcess.push(...group.BreakdownValues);
-        } else {
-          itemsToProcess.push(group);
+        // console.debug(group);
+        var NotClassified: number = 0;
+        if (group.NotClassified && taxConfig.inclNotClassified) {
+          NotClassified = group.NotClassified;
+          // console.debug("Not Classified:", NotClassified, "Breakdown Values:", group.BreakdownValues);
+          if (group.BreakdownValues && Array.isArray(group.BreakdownValues)) {
+            const InclNotClassified: any[] = group.BreakdownValues.map((Item: any) => ({ Value: Item.Value * (1 - NotClassified/100), Type: Item.Type }));
+            itemsToProcess.push(...InclNotClassified);
+            // console.debug("Weights incl. Not Classified:", InclNotClassified)
+          } else {
+            const InclNotClassified: any[] = group.map((Item: any) => ({ Value: Item.Value * (1 - NotClassified/100), Type: Item.Type }));
+            itemsToProcess.push(...InclNotClassified);
+          }
+        }else {
+          if (group.BreakdownValues && Array.isArray(group.BreakdownValues)) {
+            itemsToProcess.push(...group.BreakdownValues);
+          } else {
+            itemsToProcess.push(group);
+          }
         }
       }
+      // console.debug(itemsToProcess);
 
       // 3. Map and Assign
       // console.log(`    [${taxonomyId}] Assigning ${itemsToProcess.length} items...`);
