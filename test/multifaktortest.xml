@@ -1,5 +1,5 @@
 <client>
-  <version>68</version>
+  <version>69</version>
   <baseCurrency>EUR</baseCurrency>
   <securities>
     <security>
@@ -495,6 +495,312 @@
       <isRetired>false</isRetired>
       <updatedAt>2026-02-25T06:30:31.421876Z</updatedAt>
     </security>
+    <security>
+      <uuid>4cda720b-7948-4b12-9004-a68a3e6ad7ef</uuid>
+      <name>Amu.Idx Sol.Amu.LIFECYCLE 2039A</name>
+      <currencyCode>EUR</currencyCode>
+      <note>Test of mixed fund categorization with inclNotClassified option. Best view the classifications filtered to the Portfolio &quot;Test inclNotClassified&quot; to see the effects on a mixed equity/bond fund.&#xd;
+Region / Country: Original. The entire fund is assigned the country classification of the equity part.&#xd;
+Region / Country (inclNotClassified) Equity only: Filtered by Type = Equity and set inclNotClassified = true&#xd;
+Region / Country (inclNotClassified) Bond only: Filtered by Type = Bond and set inclNotClassified = true&#xd;
+Region / Country (inclNotClassified) Equity + Bond: set inclNotClassified = true and multigroup = true (read out both bonds and equity)&#xd;
+&#xd;
+&#xd;
+</note>
+      <isin>LU2872292243</isin>
+      <tickerSymbol>LC39.DE</tickerSymbol>
+      <feed>MANUAL</feed>
+      <prices>
+        <price t="2025-02-11" v="1013200000"/>
+        <price t="2025-02-12" v="1008200000"/>
+        <price t="2025-02-13" v="1012200000"/>
+        <price t="2025-02-14" v="1011200000"/>
+        <price t="2025-02-17" v="1013000000"/>
+        <price t="2025-02-18" v="1013400000"/>
+        <price t="2025-02-19" v="1013400000"/>
+        <price t="2025-02-20" v="1010200000"/>
+        <price t="2025-02-21" v="1011600000"/>
+        <price t="2025-02-24" v="1005400000"/>
+        <price t="2025-02-25" v="996900000"/>
+        <price t="2025-02-26" v="1004200000"/>
+        <price t="2025-02-27" v="1005200000"/>
+        <price t="2025-02-28" v="998600000"/>
+        <price t="2025-03-03" v="998500000"/>
+        <price t="2025-03-04" v="980900000"/>
+        <price t="2025-03-05" v="967800000"/>
+        <price t="2025-03-06" v="967200000"/>
+        <price t="2025-03-07" v="959400000"/>
+        <price t="2025-03-10" v="958500000"/>
+        <price t="2025-03-11" v="946500000"/>
+        <price t="2025-03-12" v="950600000"/>
+        <price t="2025-03-13" v="946000000"/>
+        <price t="2025-03-14" v="948500000"/>
+        <price t="2025-03-17" v="955500000"/>
+        <price t="2025-03-18" v="952100000"/>
+        <price t="2025-03-19" v="955200000"/>
+        <price t="2025-03-20" v="959400000"/>
+        <price t="2025-03-21" v="956200000"/>
+        <price t="2025-03-24" v="965200000"/>
+        <price t="2025-03-25" v="969500000"/>
+        <price t="2025-03-26" v="966300000"/>
+        <price t="2025-03-27" v="964100000"/>
+        <price t="2025-03-28" v="954600000"/>
+        <price t="2025-03-31" v="947300000"/>
+        <price t="2025-04-01" v="953600000"/>
+        <price t="2025-04-02" v="953900000"/>
+        <price t="2025-04-03" v="934000000"/>
+        <price t="2025-04-04" v="908200000"/>
+        <price t="2025-04-07" v="893800000"/>
+        <price t="2025-04-08" v="909000000"/>
+        <price t="2025-04-09" v="888900000"/>
+        <price t="2025-04-10" v="910200000"/>
+        <price t="2025-04-11" v="905300000"/>
+        <price t="2025-04-14" v="918400000"/>
+        <price t="2025-04-15" v="923100000"/>
+        <price t="2025-04-16" v="916900000"/>
+        <price t="2025-04-17" v="914300000"/>
+        <price t="2025-04-22" v="910500000"/>
+        <price t="2025-04-23" v="921400000"/>
+        <price t="2025-04-24" v="925500000"/>
+        <price t="2025-04-25" v="927300000"/>
+        <price t="2025-04-28" v="927700000"/>
+        <price t="2025-04-29" v="930500000"/>
+        <price t="2025-04-30" v="932400000"/>
+        <price t="2025-05-02" v="939800000"/>
+        <price t="2025-05-05" v="943200000"/>
+        <price t="2025-05-06" v="940500000"/>
+        <price t="2025-05-07" v="941000000"/>
+        <price t="2025-05-08" v="945900000"/>
+        <price t="2025-05-09" v="948900000"/>
+        <price t="2025-05-12" v="960800000"/>
+        <price t="2025-05-13" v="965400000"/>
+        <price t="2025-05-14" v="964800000"/>
+        <price t="2025-05-15" v="968000000"/>
+        <price t="2025-05-16" v="970900000"/>
+        <price t="2025-05-19" v="968300000"/>
+        <price t="2025-05-20" v="968700000"/>
+        <price t="2025-05-21" v="965300000"/>
+        <price t="2025-05-22" v="959800000"/>
+        <price t="2025-05-23" v="953100000"/>
+        <price t="2025-05-26" v="958600000"/>
+        <price t="2025-05-27" v="968000000"/>
+        <price t="2025-05-28" v="964500000"/>
+        <price t="2025-05-29" v="964900000"/>
+        <price t="2025-05-30" v="964700000"/>
+        <price t="2025-06-02" v="962600000"/>
+        <price t="2025-06-03" v="967500000"/>
+        <price t="2025-06-04" v="969600000"/>
+        <price t="2025-06-05" v="968200000"/>
+        <price t="2025-06-06" v="971400000"/>
+        <price t="2025-06-09" v="969100000"/>
+        <price t="2025-06-10" v="972200000"/>
+        <price t="2025-06-11" v="974700000"/>
+        <price t="2025-06-12" v="972300000"/>
+        <price t="2025-06-13" v="964300000"/>
+        <price t="2025-06-16" v="967800000"/>
+        <price t="2025-06-17" v="968500000"/>
+        <price t="2025-06-18" v="969800000"/>
+        <price t="2025-06-19" v="965500000"/>
+        <price t="2025-06-20" v="966500000"/>
+        <price t="2025-06-23" v="965900000"/>
+        <price t="2025-06-24" v="971300000"/>
+        <price t="2025-06-25" v="969600000"/>
+        <price t="2025-06-26" v="970600000"/>
+        <price t="2025-06-27" v="971400000"/>
+        <price t="2025-06-30" v="973200000"/>
+        <price t="2025-07-01" v="975000000"/>
+        <price t="2025-07-02" v="972000000"/>
+        <price t="2025-07-03" v="978900000"/>
+        <price t="2025-07-04" v="983600000"/>
+        <price t="2025-07-07" v="978600000"/>
+        <price t="2025-07-08" v="974800000"/>
+        <price t="2025-07-09" v="978400000"/>
+        <price t="2025-07-10" v="979500000"/>
+        <price t="2025-07-11" v="979900000"/>
+        <price t="2025-07-14" v="978800000"/>
+        <price t="2025-07-15" v="980700000"/>
+        <price t="2025-07-16" v="978200000"/>
+        <price t="2025-07-17" v="984000000"/>
+        <price t="2025-07-18" v="984600000"/>
+        <price t="2025-07-21" v="988200000"/>
+        <price t="2025-07-22" v="986900000"/>
+        <price t="2025-07-23" v="987400000"/>
+        <price t="2025-07-24" v="988100000"/>
+        <price t="2025-07-25" v="988700000"/>
+        <price t="2025-07-28" v="991100000"/>
+        <price t="2025-07-29" v="993700000"/>
+        <price t="2025-07-30" v="996400000"/>
+        <price t="2025-07-31" v="999700000"/>
+        <price t="2025-08-01" v="986900000"/>
+        <price t="2025-08-04" v="989100000"/>
+        <price t="2025-08-05" v="990000000"/>
+        <price t="2025-08-06" v="990200000"/>
+        <price t="2025-08-07" v="991000000"/>
+        <price t="2025-08-08" v="990800000"/>
+        <price t="2025-08-11" v="993900000"/>
+        <price t="2025-08-12" v="992800000"/>
+        <price t="2025-08-13" v="997300000"/>
+        <price t="2025-08-14" v="997600000"/>
+        <price t="2025-08-15" v="996200000"/>
+        <price t="2025-08-18" v="996600000"/>
+        <price t="2025-08-19" v="997700000"/>
+        <price t="2025-08-20" v="994900000"/>
+        <price t="2025-08-21" v="994700000"/>
+        <price t="2025-08-22" v="999100000"/>
+        <price t="2025-08-25" v="998400000"/>
+        <price t="2025-08-26" v="997500000"/>
+        <price t="2025-08-27" v="1001400000"/>
+        <price t="2025-08-28" v="1005200000"/>
+        <price t="2025-08-29" v="996300000"/>
+        <price t="2025-09-01" v="999700000"/>
+        <price t="2025-09-02" v="990100000"/>
+        <price t="2025-09-03" v="999500000"/>
+        <price t="2025-09-04" v="999000000"/>
+        <price t="2025-09-05" v="998300000"/>
+        <price t="2025-09-08" v="1005600000"/>
+        <price t="2025-09-09" v="1005000000"/>
+        <price t="2025-09-10" v="1006600000"/>
+        <price t="2025-09-11" v="1008000000"/>
+        <price t="2025-09-12" v="1007800000"/>
+        <price t="2025-09-15" v="1013200000"/>
+        <price t="2025-09-16" v="1007800000"/>
+        <price t="2025-09-17" v="1006000000"/>
+        <price t="2025-09-18" v="1008000000"/>
+        <price t="2025-09-19" v="1009600000"/>
+        <price t="2025-09-22" v="1011800000"/>
+        <price t="2025-09-23" v="1011800000"/>
+        <price t="2025-09-24" v="1010600000"/>
+        <price t="2025-09-25" v="1009200000"/>
+        <price t="2025-09-26" v="1010400000"/>
+        <price t="2025-09-29" v="1016400000"/>
+        <price t="2025-09-30" v="1011800000"/>
+        <price t="2025-10-01" v="1015400000"/>
+        <price t="2025-10-02" v="1019000000"/>
+        <price t="2025-10-03" v="1021800000"/>
+        <price t="2025-10-06" v="1022000000"/>
+        <price t="2025-10-07" v="1024200000"/>
+        <price t="2025-10-08" v="1024600000"/>
+        <price t="2025-10-09" v="1027600000"/>
+        <price t="2025-10-10" v="1019000000"/>
+        <price t="2025-10-13" v="1023200000"/>
+        <price t="2025-10-14" v="1020400000"/>
+        <price t="2025-10-15" v="1023800000"/>
+        <price t="2025-10-16" v="1023600000"/>
+        <price t="2025-10-17" v="1018400000"/>
+        <price t="2025-10-20" v="1026200000"/>
+        <price t="2025-10-21" v="1023200000"/>
+        <price t="2025-10-22" v="1028400000"/>
+        <price t="2025-10-23" v="1029000000"/>
+        <price t="2025-10-24" v="1035200000"/>
+        <price t="2025-10-27" v="1037200000"/>
+        <price t="2025-10-28" v="1039800000"/>
+        <price t="2025-10-29" v="1045600000"/>
+        <price t="2025-10-30" v="1045000000"/>
+        <price t="2025-10-31" v="1034400000"/>
+        <price t="2025-11-03" v="1042200000"/>
+        <price t="2025-11-04" v="1040600000"/>
+        <price t="2025-11-05" v="1039800000"/>
+        <price t="2025-11-06" v="1033400000"/>
+        <price t="2025-11-07" v="1026000000"/>
+        <price t="2025-11-10" v="1036600000"/>
+        <price t="2025-11-11" v="1039400000"/>
+        <price t="2025-11-12" v="1042600000"/>
+        <price t="2025-11-13" v="1036200000"/>
+        <price t="2025-11-14" v="1032800000"/>
+        <price t="2025-11-17" v="1032000000"/>
+        <price t="2025-11-18" v="1024600000"/>
+        <price t="2025-11-19" v="1024800000"/>
+        <price t="2025-11-20" v="1029000000"/>
+        <price t="2025-11-21" v="1022400000"/>
+        <price t="2025-11-24" v="1031000000"/>
+        <price t="2025-11-25" v="1032400000"/>
+        <price t="2025-11-26" v="1038600000"/>
+        <price t="2025-11-27" v="1038000000"/>
+        <price t="2025-11-28" v="1038200000"/>
+        <price t="2025-12-01" v="1034800000"/>
+        <price t="2025-12-02" v="1036200000"/>
+        <price t="2025-12-03" v="1037200000"/>
+        <price t="2025-12-04" v="1030800000"/>
+        <price t="2025-12-05" v="1042200000"/>
+        <price t="2025-12-08" v="1040400000"/>
+        <price t="2025-12-09" v="1036400000"/>
+        <price t="2025-12-10" v="1038200000"/>
+        <price t="2025-12-11" v="1038200000"/>
+        <price t="2025-12-12" v="1033800000"/>
+        <price t="2025-12-15" v="1031000000"/>
+        <price t="2025-12-16" v="1027600000"/>
+        <price t="2025-12-17" v="1027600000"/>
+        <price t="2025-12-18" v="1029200000"/>
+        <price t="2025-12-19" v="1032200000"/>
+        <price t="2025-12-22" v="1034800000"/>
+        <price t="2025-12-23" v="1038600000"/>
+        <price t="2025-12-29" v="1041200000"/>
+        <price t="2025-12-30" v="1042000000"/>
+        <price t="2026-01-02" v="1037000000"/>
+        <price t="2026-01-05" v="1042400000"/>
+        <price t="2026-01-06" v="1049000000"/>
+        <price t="2026-01-07" v="1053000000"/>
+        <price t="2026-01-08" v="1050800000"/>
+        <price t="2026-01-09" v="1052800000"/>
+        <price t="2026-01-12" v="1059000000"/>
+        <price t="2026-01-13" v="1054800000"/>
+        <price t="2026-01-14" v="1056000000"/>
+        <price t="2026-01-15" v="1058000000"/>
+        <price t="2026-01-16" v="1058000000"/>
+        <price t="2026-01-19" v="1051400000"/>
+        <price t="2026-01-20" v="1048000000"/>
+        <price t="2026-01-21" v="1044000000"/>
+        <price t="2026-01-22" v="1052400000"/>
+        <price t="2026-01-23" v="1046600000"/>
+        <price t="2026-01-26" v="1051800000"/>
+        <price t="2026-01-27" v="1041400000"/>
+        <price t="2026-01-28" v="1050400000"/>
+        <price t="2026-01-29" v="1047200000"/>
+        <price t="2026-01-30" v="1050000000"/>
+        <price t="2026-02-02" v="1056600000"/>
+        <price t="2026-02-03" v="1052400000"/>
+        <price t="2026-02-04" v="1057600000"/>
+        <price t="2026-02-05" v="1049000000"/>
+        <price t="2026-02-06" v="1050400000"/>
+        <price t="2026-02-09" v="1054800000"/>
+        <price t="2026-02-10" v="1056800000"/>
+        <price t="2026-02-11" v="1057200000"/>
+        <price t="2026-02-12" v="1053800000"/>
+        <price t="2026-02-13" v="1052000000"/>
+        <price t="2026-02-16" v="1051400000"/>
+        <price t="2026-02-17" v="1051400000"/>
+        <price t="2026-02-18" v="1059200000"/>
+        <price t="2026-02-19" v="1061200000"/>
+        <price t="2026-02-20" v="1063200000"/>
+        <price t="2026-02-23" v="1060200000"/>
+        <price t="2026-02-24" v="1059600000"/>
+        <price t="2026-02-25" v="1064000000"/>
+        <price t="2026-02-26" v="1064000000"/>
+        <price t="2026-02-27" v="1064400000"/>
+        <price t="2026-03-02" v="1059200000"/>
+        <price t="2026-03-03" v="1053200000"/>
+        <price t="2026-03-04" v="1060800000"/>
+        <price t="2026-03-05" v="1052600000"/>
+        <price t="2026-03-06" v="1049200000"/>
+        <price t="2026-03-09" v="1046400000"/>
+        <price t="2026-03-10" v="1054600000"/>
+        <price t="2026-03-11" v="1046600000"/>
+        <price t="2026-03-12" v="1042800000"/>
+        <price t="2026-03-13" v="1040600000"/>
+        <price t="2026-03-16" v="1043400000"/>
+      </prices>
+      <latest t="2026-03-16" v="1043400000">
+        <high>1046800000</high>
+        <low>1042800000</low>
+        <volume>16</volume>
+      </latest>
+      <attributes>
+        <map/>
+      </attributes>
+      <events/>
+      <isRetired>false</isRetired>
+      <updatedAt>2026-03-16T18:43:21.603933Z</updatedAt>
+    </security>
   </securities>
   <watchlists/>
   <accounts>
@@ -902,6 +1208,53 @@
         </account-transaction>
         <account-transaction reference="../account-transaction/crossEntry/portfolio/transactions/portfolio-transaction[13]/crossEntry/accountTransaction"/>
         <account-transaction reference="../account-transaction/crossEntry/portfolio/transactions/portfolio-transaction[14]/crossEntry/accountTransaction"/>
+        <account-transaction>
+          <uuid>5a0507ba-dc24-4c15-a68f-cd1d71050e47</uuid>
+          <date>2026-02-13T00:00</date>
+          <currencyCode>EUR</currencyCode>
+          <amount>5000000</amount>
+          <shares>0</shares>
+          <updatedAt>2026-03-16T17:51:18.665396400Z</updatedAt>
+          <type>DEPOSIT</type>
+        </account-transaction>
+        <account-transaction>
+          <uuid>8d320190-db39-41c0-92cc-6020c5de13a4</uuid>
+          <date>2026-02-13T00:00</date>
+          <currencyCode>EUR</currencyCode>
+          <amount>3156000</amount>
+          <security reference="../../../../../securities/security[26]"/>
+          <crossEntry class="buysell">
+            <portfolio>
+              <uuid>a1a3477d-e226-4fa5-80d3-320c10f6f512</uuid>
+              <name>Test inclNotClassified</name>
+              <isRetired>false</isRetired>
+              <referenceAccount reference="../../../../.."/>
+              <transactions>
+                <portfolio-transaction>
+                  <uuid>d2cac8ef-5184-4412-9ab7-f7ba00a5dba8</uuid>
+                  <date>2026-02-13T00:00</date>
+                  <currencyCode>EUR</currencyCode>
+                  <amount>3156000</amount>
+                  <security reference="../../../../../../../../../securities/security[26]"/>
+                  <crossEntry class="buysell" reference="../../../.."/>
+                  <shares>300000000000</shares>
+                  <updatedAt>2026-03-16T18:02:08.115230500Z</updatedAt>
+                  <type>BUY</type>
+                </portfolio-transaction>
+              </transactions>
+              <attributes>
+                <map/>
+              </attributes>
+              <updatedAt>2026-03-16T18:01:38.576533300Z</updatedAt>
+            </portfolio>
+            <portfolioTransaction reference="../portfolio/transactions/portfolio-transaction"/>
+            <account reference="../../../.."/>
+            <accountTransaction reference="../.."/>
+          </crossEntry>
+          <shares>0</shares>
+          <updatedAt>2026-03-16T18:02:08.115230500Z</updatedAt>
+          <type>BUY</type>
+        </account-transaction>
       </transactions>
       <attributes>
         <map/>
@@ -911,6 +1264,7 @@
   </accounts>
   <portfolios>
     <portfolio reference="../../accounts/account/transactions/account-transaction/crossEntry/portfolio"/>
+    <portfolio reference="../../accounts/account/transactions/account-transaction[17]/crossEntry/portfolio"/>
   </portfolios>
   <plans/>
   <taxonomies>
@@ -2313,6 +2667,1956 @@
       </root>
     </taxonomy>
     <taxonomy>
+      <id>3d824c43-1ffb-48ec-b2c1-d9e70f33604f</id>
+      <name>Region / Country (inclNotClassified) Equity only</name>
+      <root>
+        <id>871d0c3c-f17f-4f6c-85a8-ab0dc1d93f50</id>
+        <name>Region / Country</name>
+        <color>#89afee</color>
+        <children>
+          <classification>
+            <id>ea2a68f8-5579-415b-a3bf-c6611e9b1c91</id>
+            <name>Europe Emerging</name>
+            <color>#a57e58</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>cdd1d9be-49a6-47b3-932a-1ecaed7f35a6</id>
+                <name>Poland</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>4fadfec7-a0d1-493d-aea9-68abbe895b3e</id>
+                <name>Greece</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>87a045ef-3ec0-40f4-bab6-a19f842933f9</id>
+                <name>Türkiye</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>677e3f80-81b1-4c94-9d0a-648a5789253a</id>
+                <name>Hungary</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>ae39c5f6-26f7-48af-9b5a-3c5bfeca67a0</id>
+                <name>Czech Republic</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>5</rank>
+          </classification>
+          <classification>
+            <id>24259cea-e3cd-4a5e-b591-7ec9daaef458</id>
+            <name>Africa</name>
+            <color>#99a558</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>a7e9882b-4d91-44b1-a716-a79d87d17279</id>
+                <name>South Africa</name>
+                <color>#b3bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>4cabdfd8-24d0-46f3-8201-59907a5b826e</id>
+                <name>Cameroon</name>
+                <color>#b3bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>0</rank>
+          </classification>
+          <classification>
+            <id>f0932c6f-0489-4987-81f4-348010714d51</id>
+            <name>Latin America</name>
+            <color>#66a558</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>912c2432-6f10-4465-830c-7bd5abb47e31</id>
+                <name>Brazil</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>6d2ad49f-4a47-4477-b341-9021dea3c3d1</id>
+                <name>Mexico</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>aee8af52-dc9a-493d-9f80-bd5f8a0dd952</id>
+                <name>Chile</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>a9e8adc0-15fd-4062-a6e3-4daf4f727a03</id>
+                <name>Colombia</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>446c776a-544a-40c5-b876-e593877744e2</id>
+                <name>Puerto Rico</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>9b3d4ddc-c281-454b-bd4a-b93b00dc9cd1</id>
+                <name>Guatemala</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>7</rank>
+          </classification>
+          <classification>
+            <id>ad5a21c4-e5df-4e53-aa20-56244e86cfe5</id>
+            <name>Middle East</name>
+            <color>#58a57e</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>4112e1b1-3f30-49ef-a6bc-ffe205fd2fd5</id>
+                <name>Israel</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>ea8136d1-f00e-4bb9-9676-f62bfcf31356</id>
+                <name>Saudi Arabia</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>c363b61d-b872-45d9-8658-b32e2763292c</id>
+                <name>United Arab Emirates</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>b69e659d-f9b5-4380-9672-4e7ff7c13605</id>
+                <name>Kuwait</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>a4b2d41a-1a08-4146-8740-6ca643f1b733</id>
+                <name>Qatar</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>60b2ba4e-f407-40cb-8789-75b9779451fc</id>
+                <name>Egypt</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>8</rank>
+          </classification>
+          <classification>
+            <id>d6c44f22-584e-4fbe-aca2-2b20c9e90276</id>
+            <name>Australasia</name>
+            <color>#5899a5</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>a5807f76-dd3b-4ab1-8c50-7cca70cd76f9</id>
+                <name>Australia</name>
+                <color>#79b3bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>363be3cf-bc21-4114-be0c-bd161543fb48</id>
+                <name>New Zealand</name>
+                <color>#79b3bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>9d60e7cb-cf69-430d-aeb2-df2c6b406ee3</id>
+                <name>Marshall Islands</name>
+                <color>#79b3bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>3</rank>
+          </classification>
+          <classification>
+            <id>a310cb05-a032-4554-8cc1-ba028213d22a</id>
+            <name>Asia Emerging</name>
+            <color>#5866a5</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>6f61fb33-7f69-4bf9-8587-ab8fb457bdf3</id>
+                <name>India</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>adc8766a-9386-4861-abfc-f46cb94abef7</id>
+                <name>China</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>e92e28bf-a226-4361-b3ae-6caed686d2fb</id>
+                <name>South Korea</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>d597a223-a64c-4906-9e31-98588f2c5152</id>
+                <name>Thailand</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>bb5efd8e-e502-4258-9a58-5a578d1c4942</id>
+                <name>Malaysia</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>2dcf8086-94e1-42eb-b209-0e3198983f37</id>
+                <name>Indonesia</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+              <classification>
+                <id>0b67b693-c033-49bd-94f2-5a5b1a6e043a</id>
+                <name>Philippines</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>6</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>2</rank>
+          </classification>
+          <classification>
+            <id>7bd9ccc8-db6a-4d8c-8879-d55f64db7cb7</id>
+            <name>Asia Developed</name>
+            <color>#7e58a5</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>1128010b-7cca-4484-94c6-8809be6797dc</id>
+                <name>Taiwan</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>5742e768-1b58-4181-a696-b9336f1d5995</id>
+                <name>Japan</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>9c3aa2c4-3aed-4455-9332-e5f5d013f7be</id>
+                <name>Singapore</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>71caf5ee-dd3f-4155-9449-86758501610c</id>
+                <name>Hong Kong</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>a41a3d2d-3024-4623-8757-b4ac55bb53a0</id>
+                <name>Macao</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>1</rank>
+          </classification>
+          <classification>
+            <id>7310cc39-53db-4bf4-8945-0335e34fbdd1</id>
+            <name>Europe Developed Ex-EMU</name>
+            <color>#a55899</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>c4b766e9-25b6-45b5-9653-a138b8ed8024</id>
+                <name>United Kingdom</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>97f921cb-68ba-4f3c-8182-b1b95dcd830f</id>
+                <name>Switzerland</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>509adc1b-4742-4a0b-99b1-ab1ccdf1403c</id>
+                <name>Danemark</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>dad9a5c6-e63f-4cbf-90a5-b8fea4ec8c07</id>
+                <name>Sweden</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>49e6ab26-3ae8-4076-a1a6-c1abb899d7f0</id>
+                <name>Norway</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>4</rank>
+          </classification>
+          <classification>
+            <id>c4dee710-5d7b-45f3-9153-3d45db34bcf5</id>
+            <name>North America</name>
+            <color>#a55866</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>45aab030-f519-4f30-bf06-06e5706a3e5a</id>
+                <name>United States</name>
+                <color>#bf7985</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>8fe80026-d804-44aa-9763-e6afdd4c00f6</id>
+                <name>Canada</name>
+                <color>#bf7985</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>9</rank>
+          </classification>
+          <classification>
+            <id>c4f3513e-cbd3-4181-9ce6-0a3129244d85</id>
+            <name>Eurozone</name>
+            <color>#bf79b3</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>6bc214ff-06c6-4c4a-a5a2-5ce80c21cc13</id>
+                <name>Germany</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments>
+                  <assignment>
+                    <investmentVehicle class="account" reference="../../../../../../../../../../accounts/account"/>
+                    <weight>10000</weight>
+                    <rank>0</rank>
+                  </assignment>
+                </assignments>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>77253166-3ce7-4b13-adeb-a39e3f4261bc</id>
+                <name>France</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>7c02f923-b0bc-4854-810b-05c0fd54b2fb</id>
+                <name>Spain</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>88aedb4a-83ad-4f39-b439-4cd63c1eef1c</id>
+                <name>Netherlands</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>de277b22-fec3-45de-aee4-61ea6bca26ba</id>
+                <name>Italy</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>5c91bf44-b8fa-4afa-b908-c87b1396ef0c</id>
+                <name>Belgium</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+              <classification>
+                <id>597f10b0-06e3-4146-a82c-4de0cf381a31</id>
+                <name>Finland</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>6</rank>
+              </classification>
+              <classification>
+                <id>58f4fc37-9a68-48a1-b8c1-455637df64a4</id>
+                <name>Ireland</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>7</rank>
+              </classification>
+              <classification>
+                <id>36f68ac9-9171-4d3d-ace0-398f4a2352b6</id>
+                <name>Austria</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>8</rank>
+              </classification>
+              <classification>
+                <id>7c26beea-503d-48ad-aabe-386d6265a637</id>
+                <name>Portugal</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>9</rank>
+              </classification>
+              <classification>
+                <id>3bd01dec-b19e-4f2b-89b8-7f369e45c5bf</id>
+                <name>Luxembourg</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>10</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>6</rank>
+          </classification>
+        </children>
+        <assignments/>
+        <weight>10000</weight>
+        <rank>0</rank>
+      </root>
+    </taxonomy>
+    <taxonomy>
+      <id>3c4811d7-2109-4f3e-a813-bea6c984dbd1</id>
+      <name>Region / Country (inclNotClassified) Bond only</name>
+      <root>
+        <id>4ed6f5aa-1d3f-4fa8-8942-9a012cce51a9</id>
+        <name>Region / Country</name>
+        <color>#89afee</color>
+        <children>
+          <classification>
+            <id>3941f220-ba1c-4b7c-b043-30e20e1fdfec</id>
+            <name>Europe Emerging</name>
+            <color>#a57e58</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>85a9e4a6-eebc-4c81-9ce8-fea76b1d81c2</id>
+                <name>Poland</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>b4203c43-e860-4616-806a-29e1a8c049f8</id>
+                <name>Greece</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>24cbd85b-2a02-40ac-bcb5-f5e045794373</id>
+                <name>Türkiye</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>e2c8d755-0920-468d-b73b-18696a2a9388</id>
+                <name>Hungary</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>099799ec-07b9-423e-8b46-b405923ecf30</id>
+                <name>Czech Republic</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>5</rank>
+          </classification>
+          <classification>
+            <id>97f955c3-2328-4a33-bd29-159a39c2046d</id>
+            <name>Africa</name>
+            <color>#99a558</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>be6dcc52-0a56-42ae-abe0-843dc99feb28</id>
+                <name>South Africa</name>
+                <color>#b3bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>1207d2fa-c7c0-42b4-85b3-1a8b6f6be002</id>
+                <name>Cameroon</name>
+                <color>#b3bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>0</rank>
+          </classification>
+          <classification>
+            <id>445e0d1c-2efd-48b6-9f42-939bee50d62a</id>
+            <name>Latin America</name>
+            <color>#66a558</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>7fe6e18e-f79c-478e-9ade-20ca64f25f55</id>
+                <name>Brazil</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>b15f641e-d004-4b8e-9c5a-f6a89f5f6c88</id>
+                <name>Mexico</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>99a98250-8c3b-495a-af93-05fe5f59a371</id>
+                <name>Chile</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>3453f36a-d388-4373-8a59-5e5d2d3df207</id>
+                <name>Colombia</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>9caeee4b-90a2-457d-96f8-f59576b59eb3</id>
+                <name>Puerto Rico</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>5dbefd97-1e6c-47b5-90e8-d7c092917a52</id>
+                <name>Guatemala</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>7</rank>
+          </classification>
+          <classification>
+            <id>4ac251b8-08db-49bd-87b0-f7177e9e9f71</id>
+            <name>Middle East</name>
+            <color>#58a57e</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>b5818746-a77f-4083-8461-316a305b3515</id>
+                <name>Israel</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>b4d7a8eb-1317-42db-93e7-372f073caf5e</id>
+                <name>Saudi Arabia</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>48cda77b-0238-4773-b7e3-dc19458a6d79</id>
+                <name>United Arab Emirates</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>2e97fbb2-31d3-450d-9240-28b858b47e74</id>
+                <name>Kuwait</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>6a1f6511-8c91-46d9-8e0f-98f8fce6ba7c</id>
+                <name>Qatar</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>256a21c1-e8f0-41bb-af65-0085349dc65c</id>
+                <name>Egypt</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>8</rank>
+          </classification>
+          <classification>
+            <id>e4c7303b-c793-469e-bc35-ff971880072f</id>
+            <name>Australasia</name>
+            <color>#5899a5</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>f14c92e1-9064-41ac-9875-2a396b476938</id>
+                <name>Australia</name>
+                <color>#79b3bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>1badd56c-e689-468c-8ddd-3cfec8d043f1</id>
+                <name>New Zealand</name>
+                <color>#79b3bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>965100be-2206-4fa8-86a8-b7e11cb0db43</id>
+                <name>Marshall Islands</name>
+                <color>#79b3bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>3</rank>
+          </classification>
+          <classification>
+            <id>c3df8e85-8584-4597-8e6a-14737da03406</id>
+            <name>Asia Emerging</name>
+            <color>#5866a5</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>11430676-a35c-4ee8-944b-5116a356658f</id>
+                <name>India</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>84af956d-694f-4361-bd5f-4f7b7e1d8508</id>
+                <name>China</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>9e6bae09-35f8-4b1d-9c5f-7d46925440a9</id>
+                <name>South Korea</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>2f46d5d9-fe84-4516-83b6-291d90994efa</id>
+                <name>Thailand</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>c9112985-d0aa-4e42-8832-5a7baa969735</id>
+                <name>Malaysia</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>67e684a9-2142-447e-b76c-d4baeece50d5</id>
+                <name>Indonesia</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+              <classification>
+                <id>b16e9380-d8d8-4e7c-9113-84eda9681723</id>
+                <name>Philippines</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>6</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>2</rank>
+          </classification>
+          <classification>
+            <id>62d04529-ff86-464a-af58-f3dede1ad1a3</id>
+            <name>Asia Developed</name>
+            <color>#7e58a5</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>45b86d82-3170-4c12-964a-91ded9bae8b1</id>
+                <name>Taiwan</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>2c2c086a-7bbb-49d9-b709-1db7ef3ec7be</id>
+                <name>Japan</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>941d2850-7a36-456e-96c9-92accc33ba7f</id>
+                <name>Singapore</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>b43e5082-29ca-42d8-814f-b2aaad669811</id>
+                <name>Hong Kong</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>76240d7a-0938-4bae-877f-4e721caec1a8</id>
+                <name>Macao</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>1</rank>
+          </classification>
+          <classification>
+            <id>5fceed1e-43bc-46ee-beb7-97123e04c9fc</id>
+            <name>Europe Developed Ex-EMU</name>
+            <color>#a55899</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>c32f81aa-7085-4a63-a399-b5061ef55eba</id>
+                <name>United Kingdom</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>ebe6165a-c0a8-45b9-87e6-1a89d59b3a5b</id>
+                <name>Switzerland</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>de0c516c-226e-49d9-9ba1-2700598c6022</id>
+                <name>Danemark</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>9b4f45b3-6963-4374-8f8d-0ba659e129bf</id>
+                <name>Sweden</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>45ea5070-284d-4487-a790-3217663edf58</id>
+                <name>Norway</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>4</rank>
+          </classification>
+          <classification>
+            <id>b3929a97-cb6e-47d7-999e-0391bb3ac21e</id>
+            <name>North America</name>
+            <color>#a55866</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>7f062c07-7895-4792-b900-2d0f9785a769</id>
+                <name>United States</name>
+                <color>#bf7985</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>3890584f-7eb0-4167-87a7-0dfd1a0fc04c</id>
+                <name>Canada</name>
+                <color>#bf7985</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>9</rank>
+          </classification>
+          <classification>
+            <id>1d66164a-a7d1-4c9f-b269-491ac365032e</id>
+            <name>Eurozone</name>
+            <color>#bf79b3</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>75560200-9df1-40b0-9ad4-ca8041e3519f</id>
+                <name>Germany</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments>
+                  <assignment>
+                    <investmentVehicle class="account" reference="../../../../../../../../../../accounts/account"/>
+                    <weight>10000</weight>
+                    <rank>0</rank>
+                  </assignment>
+                </assignments>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>a92438cd-000e-4234-b49e-8bce638d080c</id>
+                <name>France</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>8792c6aa-dcd5-4aca-a178-81f4df2e07b7</id>
+                <name>Spain</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>69fa5cbe-b5bf-4abc-895d-655d09e4b356</id>
+                <name>Netherlands</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>fad6b271-9205-48af-a26d-833252df9c58</id>
+                <name>Italy</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>44fb6f50-f8e4-491c-9de6-7922ed0ec649</id>
+                <name>Belgium</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+              <classification>
+                <id>ccb05ce1-02b6-4f06-8baf-5e9e434e3cf1</id>
+                <name>Finland</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>6</rank>
+              </classification>
+              <classification>
+                <id>c6dc0cb2-5f78-4460-86a5-a17daa429d86</id>
+                <name>Ireland</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>7</rank>
+              </classification>
+              <classification>
+                <id>56ca723d-61f1-4078-9f35-33634855657c</id>
+                <name>Austria</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>8</rank>
+              </classification>
+              <classification>
+                <id>3298ddb5-a816-43ae-9325-af64e91e00d4</id>
+                <name>Portugal</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>9</rank>
+              </classification>
+              <classification>
+                <id>c04ea77e-f700-4cd6-add0-3032a78f8311</id>
+                <name>Luxembourg</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>10</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>6</rank>
+          </classification>
+        </children>
+        <assignments/>
+        <weight>10000</weight>
+        <rank>0</rank>
+      </root>
+    </taxonomy>
+    <taxonomy>
+      <id>c6543b7b-4a2f-4e6d-ae99-92c1067e9093</id>
+      <name>Region / Country (inclNotClassified) Equity + Bond</name>
+      <root>
+        <id>28f7e6ef-29b6-467a-a2f4-a8cbb239311b</id>
+        <name>Region / Country</name>
+        <color>#89afee</color>
+        <children>
+          <classification>
+            <id>c375935c-d2f0-4211-83ad-6d0bdd04abee</id>
+            <name>Europe Emerging</name>
+            <color>#a57e58</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>b7a26fcf-ae80-4af9-8c57-27a6a23f15ed</id>
+                <name>Poland</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>26278d5a-acbd-4d15-9081-840397425f2e</id>
+                <name>Greece</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>e1e47e0e-843c-4a8d-bde0-94943c6f5c92</id>
+                <name>Türkiye</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>0f1f983d-b223-4401-a14f-e29f8146da85</id>
+                <name>Hungary</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>64f60232-d3a7-4831-a302-c1735ee13e8c</id>
+                <name>Czech Republic</name>
+                <color>#bf9b79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>5</rank>
+          </classification>
+          <classification>
+            <id>484555fc-8b0b-4dda-910c-71dafd77f066</id>
+            <name>Africa</name>
+            <color>#99a558</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>7ab0120b-d730-4bd3-a713-41c5b785dbff</id>
+                <name>South Africa</name>
+                <color>#b3bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>b91ba81a-ffa6-43a0-93cc-75238dcf3f28</id>
+                <name>Cameroon</name>
+                <color>#b3bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>0</rank>
+          </classification>
+          <classification>
+            <id>95208543-e48d-43ec-ae63-240a86f20ccb</id>
+            <name>Latin America</name>
+            <color>#66a558</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>c334867a-b0bc-485b-b054-b6dfa9e35388</id>
+                <name>Brazil</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>b91c929d-bc4e-476a-92ee-f5e334a31cd0</id>
+                <name>Mexico</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>6f2d9efa-8adb-4374-9f80-958150d7c25f</id>
+                <name>Chile</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>539de64f-5b45-4875-a229-48de95ac60e5</id>
+                <name>Colombia</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>aa8705bf-dd3b-473a-a076-9665efa9f318</id>
+                <name>Puerto Rico</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>118b8975-b369-4766-b2db-7776cdc4c815</id>
+                <name>Guatemala</name>
+                <color>#85bf79</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>7</rank>
+          </classification>
+          <classification>
+            <id>1409e386-5693-40f3-bc07-360d2afecc20</id>
+            <name>Middle East</name>
+            <color>#58a57e</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>85257a41-5074-4bd4-87e7-3ffac97020d6</id>
+                <name>Israel</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>e960a9a7-55d4-4b1f-8a1d-c3909717e0e5</id>
+                <name>Saudi Arabia</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>639461ff-3548-450f-887d-3fe372d21864</id>
+                <name>United Arab Emirates</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>15d790d0-eed4-42ac-aebb-00444b1cf291</id>
+                <name>Kuwait</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>2f9d567f-0b7c-405a-98c1-e99441d7198c</id>
+                <name>Qatar</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>7c165a97-6529-41d3-b731-12cc9945169a</id>
+                <name>Egypt</name>
+                <color>#79bf9b</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>8</rank>
+          </classification>
+          <classification>
+            <id>2e770244-1a98-45ba-990d-a2b42c78d1e3</id>
+            <name>Australasia</name>
+            <color>#5899a5</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>ce95b25b-9d6c-4fcd-a0a3-caf6b542d1b5</id>
+                <name>Australia</name>
+                <color>#79b3bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>47991a60-55d4-4683-b630-beafd9cfeed4</id>
+                <name>New Zealand</name>
+                <color>#79b3bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>d2453b9f-add9-4dd4-bce4-7df0646bd3ae</id>
+                <name>Marshall Islands</name>
+                <color>#79b3bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>3</rank>
+          </classification>
+          <classification>
+            <id>f67a8978-fd71-4afd-af08-cb5d1a1d448b</id>
+            <name>Asia Emerging</name>
+            <color>#5866a5</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>c11cf5e0-18e0-4003-a122-8aa77256d1e6</id>
+                <name>India</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>7aa5960d-215a-446d-a073-7b5642875839</id>
+                <name>China</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>6146b90e-e850-4626-878f-72975f363639</id>
+                <name>South Korea</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>a949ec8c-7e0f-4d84-b88f-9d93224e0487</id>
+                <name>Thailand</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>9aaba916-f7bb-4d87-b0da-434447787472</id>
+                <name>Malaysia</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>638f6598-22e5-486f-87ea-3e0ef1e8bb8e</id>
+                <name>Indonesia</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+              <classification>
+                <id>86add775-daad-40ac-a145-0536a2d2a1f5</id>
+                <name>Philippines</name>
+                <color>#7985bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>6</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>2</rank>
+          </classification>
+          <classification>
+            <id>e9b6ad08-1571-455d-bfa2-ec4d04e95070</id>
+            <name>Asia Developed</name>
+            <color>#7e58a5</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>4dc2d1f4-e5e8-438a-82d7-894dc69f1c27</id>
+                <name>Taiwan</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>48b6fdc4-6d43-40f8-985c-800f49272787</id>
+                <name>Japan</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>627299be-493f-4cc4-90eb-bccbc53cd461</id>
+                <name>Singapore</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>ddb705fc-e004-47c6-b426-3a8875f6ecc0</id>
+                <name>Hong Kong</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>266285c7-1de3-4989-a819-117171edfd27</id>
+                <name>Macao</name>
+                <color>#9b79bf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>1</rank>
+          </classification>
+          <classification>
+            <id>83e5d6a1-4be8-400c-a01d-7a1ffb556dca</id>
+            <name>Europe Developed Ex-EMU</name>
+            <color>#a55899</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>0368f83c-870b-44f8-8fd4-706e2ad06e98</id>
+                <name>United Kingdom</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>0b46d3f1-dc8f-406f-bf9d-b7b4ead432ec</id>
+                <name>Switzerland</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>159c0c2d-d8e1-4fa5-975f-84f2d4a1da68</id>
+                <name>Danemark</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>dd5bd367-5d94-479f-9a33-7c6da7e46c47</id>
+                <name>Sweden</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>3b1d24ff-84cd-493b-852a-11caf4d0f8b2</id>
+                <name>Norway</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>4</rank>
+          </classification>
+          <classification>
+            <id>022e1f77-a871-458b-b9ce-1487569c92f2</id>
+            <name>North America</name>
+            <color>#a55866</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>d9361398-f74c-46f9-bee6-2240f7e23c4c</id>
+                <name>United States</name>
+                <color>#bf7985</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>b7b8891b-c44b-4141-b333-2d9f2d900267</id>
+                <name>Canada</name>
+                <color>#bf7985</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>9</rank>
+          </classification>
+          <classification>
+            <id>6f253fc3-e164-4df1-bd23-d4687620a051</id>
+            <name>Eurozone</name>
+            <color>#bf79b3</color>
+            <parent reference="../../.."/>
+            <children>
+              <classification>
+                <id>8c074732-f499-4da3-ba08-fa5b32980c30</id>
+                <name>Germany</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments>
+                  <assignment>
+                    <investmentVehicle class="account" reference="../../../../../../../../../../accounts/account"/>
+                    <weight>10000</weight>
+                    <rank>0</rank>
+                  </assignment>
+                </assignments>
+                <weight>0</weight>
+                <rank>0</rank>
+              </classification>
+              <classification>
+                <id>cff8e84c-c238-4a9b-b2f4-97eafb2c1d14</id>
+                <name>France</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>1</rank>
+              </classification>
+              <classification>
+                <id>4c7eb966-d28f-442e-a1cd-aebc4f1b4f8f</id>
+                <name>Spain</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>2</rank>
+              </classification>
+              <classification>
+                <id>cf521eec-c57b-431e-911d-c9c5922be46f</id>
+                <name>Netherlands</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>3</rank>
+              </classification>
+              <classification>
+                <id>a8cc48ba-7fe2-4959-8dea-957cf896079f</id>
+                <name>Italy</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>4</rank>
+              </classification>
+              <classification>
+                <id>fc16270f-b13f-4837-8bd2-cbb804446258</id>
+                <name>Belgium</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>5</rank>
+              </classification>
+              <classification>
+                <id>7c749f7f-9dc7-4ef1-ab8d-4b123d661966</id>
+                <name>Finland</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>6</rank>
+              </classification>
+              <classification>
+                <id>5d0e7c1b-2d0b-4b75-a85a-abf8960a89de</id>
+                <name>Ireland</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>7</rank>
+              </classification>
+              <classification>
+                <id>374799c5-e688-4414-9b28-50ca1fe986a0</id>
+                <name>Austria</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>8</rank>
+              </classification>
+              <classification>
+                <id>89cc1eca-eda8-4d25-9721-2356350776c9</id>
+                <name>Portugal</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>9</rank>
+              </classification>
+              <classification>
+                <id>a548e4ed-9356-4bac-9743-41e2fc707b92</id>
+                <name>Luxembourg</name>
+                <color>#d89fcf</color>
+                <parent reference="../../.."/>
+                <children/>
+                <assignments/>
+                <weight>0</weight>
+                <rank>10</rank>
+              </classification>
+            </children>
+            <assignments/>
+            <weight>0</weight>
+            <rank>6</rank>
+          </classification>
+        </children>
+        <assignments/>
+        <weight>10000</weight>
+        <rank>0</rank>
+      </root>
+    </taxonomy>
+    <taxonomy>
       <id>ecb5995c-7fa7-44e1-9eb0-fd95204765c0</id>
       <name>Region</name>
       <root>
@@ -2699,6 +5003,110 @@
           </classification>
           <classification>
             <id>8f2b0443-5ea6-4963-b5f9-a0a3ac550dea</id>
+            <name>Large Blend</name>
+            <color>#a9c984</color>
+            <parent reference="../../.."/>
+            <children/>
+            <assignments/>
+            <weight>0</weight>
+            <rank>8</rank>
+          </classification>
+        </children>
+        <assignments/>
+        <weight>10000</weight>
+        <rank>0</rank>
+      </root>
+    </taxonomy>
+    <taxonomy>
+      <id>90498e01-d847-40f5-aec9-d8c17b6ea26b</id>
+      <name>Stock Style (inclNotClassified)</name>
+      <root>
+        <id>d6c12f7a-6eb1-4718-8ec8-feae2bf20224</id>
+        <name>Stock Style</name>
+        <color>#89afee</color>
+        <children>
+          <classification>
+            <id>a852215b-213c-4eeb-9a32-9ffa8c184441</id>
+            <name>Small Growth</name>
+            <color>#84c98d</color>
+            <parent reference="../../.."/>
+            <children/>
+            <assignments/>
+            <weight>0</weight>
+            <rank>0</rank>
+          </classification>
+          <classification>
+            <id>efc70a9a-ff25-4ef2-a96d-df76bfda6e59</id>
+            <name>Small Value</name>
+            <color>#84c9bb</color>
+            <parent reference="../../.."/>
+            <children/>
+            <assignments/>
+            <weight>0</weight>
+            <rank>1</rank>
+          </classification>
+          <classification>
+            <id>369852f1-3edb-4c38-9ef1-f16b0032209a</id>
+            <name>Small Blend</name>
+            <color>#84a9c9</color>
+            <parent reference="../../.."/>
+            <children/>
+            <assignments/>
+            <weight>0</weight>
+            <rank>2</rank>
+          </classification>
+          <classification>
+            <id>4c417e7e-aa44-4d45-b4ca-7339872d9745</id>
+            <name>Mid Growth</name>
+            <color>#8d84c9</color>
+            <parent reference="../../.."/>
+            <children/>
+            <assignments/>
+            <weight>0</weight>
+            <rank>3</rank>
+          </classification>
+          <classification>
+            <id>1b7f9fcd-f6ef-4ea9-ad4c-679873c8859e</id>
+            <name>Mid Value</name>
+            <color>#bb84c9</color>
+            <parent reference="../../.."/>
+            <children/>
+            <assignments/>
+            <weight>0</weight>
+            <rank>4</rank>
+          </classification>
+          <classification>
+            <id>878653d4-a41a-433a-95bf-fce5947af038</id>
+            <name>Mid Blend</name>
+            <color>#c984a9</color>
+            <parent reference="../../.."/>
+            <children/>
+            <assignments/>
+            <weight>0</weight>
+            <rank>5</rank>
+          </classification>
+          <classification>
+            <id>b871d3cb-884f-4625-8881-5b72ac55f9db</id>
+            <name>Large Value</name>
+            <color>#c98d84</color>
+            <parent reference="../../.."/>
+            <children/>
+            <assignments/>
+            <weight>0</weight>
+            <rank>6</rank>
+          </classification>
+          <classification>
+            <id>5dd36a45-f866-4ec9-a9f8-7b94f2eec571</id>
+            <name>Large Growth</name>
+            <color>#c9bb84</color>
+            <parent reference="../../.."/>
+            <children/>
+            <assignments/>
+            <weight>0</weight>
+            <rank>7</rank>
+          </classification>
+          <classification>
+            <id>f491b900-0910-4fa7-9f86-533d880b9480</id>
             <name>Large Blend</name>
             <color>#a9c984</color>
             <parent reference="../../.."/>
@@ -3145,6 +5553,16 @@
               <uuid>TaxonomyView-e4e79059-4572-4e9f-a5a8-d69a31c2418e</uuid>
               <name></name>
               <data>bb6810b4-0994-49ef-b5a5-0048bb897169,619517b0-1fd2-4f22-b0e4-95269a3e43e8</data>
+            </config>
+            <config>
+              <uuid>TaxonomyView-25dac9ea-8a2e-4fe3-b15d-d1a13f7d70e3</uuid>
+              <name></name>
+              <data>a1a3477d-e226-4fa5-80d3-320c10f6f512</data>
+            </config>
+            <config>
+              <uuid>TaxonomyView-b9032461-1fe8-49c3-8dff-dad3d1bf8dc9</uuid>
+              <name></name>
+              <data>a1a3477d-e226-4fa5-80d3-320c10f6f512</data>
             </config>
           </configurations>
         </config-set>

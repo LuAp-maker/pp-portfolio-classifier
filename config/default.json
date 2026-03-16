@@ -1056,6 +1056,52 @@
         "mapping": "CountryRegionDetailedMap"
       }
     },
+    "country_by_region_inclNotClassified_Equity": {
+      "active": true,
+      "name": "Region / Country (inclNotClassified) Equity only",
+      "sourcePath": "Portfolios[0].CountryExposure",
+      "keyField": "Type",
+      "valueField": "Value",
+      "filter": { "SalePosition": "N", "Type":"Equity" },
+      "mapping": "CountryRegionDetailedMap",
+      "fixTotal": true,
+      "inclNotClassified": true,
+      "stockConfig": {
+        "sourcePath": "Country",
+        "mapping": "CountryRegionDetailedMap"
+      }
+    },
+    "country_by_region_inclNotClassified_Bond": {
+      "active": true,
+      "name": "Region / Country (inclNotClassified) Bond only",
+      "sourcePath": "Portfolios[0].CountryExposure",
+      "keyField": "Type",
+      "valueField": "Value",
+      "filter": { "SalePosition": "N", "Type":"Bond" },
+      "mapping": "CountryRegionDetailedMap",
+      "fixTotal": true,
+      "inclNotClassified": true,
+      "stockConfig": {
+        "sourcePath": "Country",
+        "mapping": "CountryRegionDetailedMap"
+      }
+    },
+        "country_by_region_inclNotClassified_Equity_Bond": {
+      "active": true,
+      "name": "Region / Country (inclNotClassified) Equity + Bond",
+      "sourcePath": "Portfolios[0].CountryExposure",
+      "keyField": "Type",
+      "valueField": "Value",
+      "filter": { "SalePosition": "N"},
+      "mapping": "CountryRegionDetailedMap",
+      "fixTotal": true,
+      "inclNotClassified": true,
+      "multigroup": true,
+      "stockConfig": {
+        "sourcePath": "Country",
+        "mapping": "CountryRegionDetailedMap"
+      }
+    },
     "stock_style": {
       "active": "auto",
       "name": "Stock Style",
@@ -1065,6 +1111,22 @@
       "filter": { "SalePosition": "N" },
       "mapping": "StockStyleBoxMap",
       "fixTotal": true,
+      "stockConfig": {
+        "viewId": "snapshot",
+        "sourcePath": "QuantitativeFairValue.InvestmentStyle",
+        "mapping": "StockStyleBoxMap"
+      }
+    },
+    "stock_style_inclNotClassified": {
+      "active": "auto",
+      "name": "Stock Style (inclNotClassified)",
+      "sourcePath": "Portfolios[0].StyleBoxBreakdown",
+      "keyField": "Type",
+      "valueField": "Value",
+      "filter": { "SalePosition": "N" },
+      "mapping": "StockStyleBoxMap",
+      "fixTotal": true,
+      "inclNotClassified": true,
       "stockConfig": {
         "viewId": "snapshot",
         "sourcePath": "QuantitativeFairValue.InvestmentStyle",
