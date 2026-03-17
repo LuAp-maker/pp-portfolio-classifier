@@ -123,7 +123,7 @@ This is ideal for adapting category names to your language or customize taxonomi
 - `active`: Enable/disable this taxonomy. Set to `true` to enable, `false` to disable, or `"auto"` to enable it only if the taxonomy already exists in your portfolio file.
 - `name`: The name of the taxonomy as it will appear in Portfolio Performance.
 - `mapping`: The key of the mapping table to use for this taxonomy.
-- `filter`: 
+- `filter`: Filter groups by key values
 - `multigroup`: If `true`, containers with multiple groups will be included in the taxonomy. If `false`, only the first group in the container will be included. Default is `false`.
 - `inclNotClassified`: In multi-asset fund breakdowns, Morningstar reports the weights as a percentage of the classified fraction of the fund. Set this to `true`to rescale the weights to the percentage of the total fund composition by multiplying the weights with `(1 - NotClassified/100)`. Default is `false` to keep behaviour consistent with pre-existing json configuration files.
 - `stockConfig`: Specific configuration for stocks.
@@ -204,7 +204,7 @@ As an example, the Country Exposure response for a fund containing 65% stocks (o
 ```
 Let's look at the results with different configurations:
 
-**Report bond breakdown as percentage of bonds**
+**Report bond breakdown as percentage of bonds:**
 Config:
 ``` json
 "filter": { "SalePosition": "N", "Type": "Bond"},
@@ -218,7 +218,7 @@ Country:
 ├── FRA 70
 └── USA 30
 ```
-**Report equity breakdown as percentage of total fund**
+**Report equity breakdown as percentage of total fund:**
 Config:
 ``` json
 "filter": { "SalePosition": "N", "Type": "Equity"},
@@ -232,7 +232,7 @@ Country:
 ├── DEU 13 ← 20 * (1 - 35/100)
 └── USA 52 ← 80 * (1 - 35/100)
 ```
-**Report total breakdown as percentage of total fund**
+**Report total breakdown as percentage of total fund:**
 Config:
 ``` json
 "filter": { "SalePosition": "N"},
